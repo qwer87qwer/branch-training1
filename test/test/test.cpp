@@ -2,12 +2,18 @@
 //
 
 #include <iostream>
-
+#include "add.h"
+#include "mul.h"
+#include "sub.h"
 
 
 int main()
 {
-    
+    int a = 9, b = 3;
+
+    printf("add : %d \n", add(a, b));
+    printf("sub : %d \n", sub(a, b));
+    printf("mul : %d \n", mul(a, b));
 }
 
 // 프로그램 실행: <Ctrl+F5> 또는 [디버그] > [디버깅하지 않고 시작] 메뉴
